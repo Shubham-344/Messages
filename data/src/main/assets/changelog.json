@@ -1,0 +1,65 @@
+[{
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "added": [
+    "We are on playstore now!",
+    "Updated translations"
+  ],
+  "fixed": [
+    "Upstream a lot of dependenies",
+    "Fixup notification icons",
+    "Fix a bunch of crashes in MMS",
+    "Fix screen in GalleryView"
+  ]
+},
+  {
+    "versionCode": 5,
+    "versionName": "1.0.4",
+    "added": [
+      "When a conversation is deleted, the app now smoothly returns you to the home screen",
+      "Improved avatar backgrounds for a cleaner, more polished look."
+    ],
+    "fixed": [
+      "When a conversation is deleted, the app now smoothly returns you to the home screen",
+      "Updated phone screenshots to reflect the latest UI",
+      "Corrected RecyclerView alignment for better layout consistency.",
+      "Fixed window theming to ensure styles are applied correctly across the app.",
+      "Resolved button tint issues in: AutoDelete dialog, DatePicker, TimePicker"
+    ]
+  },
+  {
+    "versionCode": 4,
+    "versionName": "1.0.3",
+    "added": [
+      "Applied unified theming to all AlertDialog components",
+      "Various UI polish improvements carried over from previous commits",
+      "Update translations"
+    ],
+    "fixed": [
+      "Updated chip colors in mainView",
+      "Updated SearchPill colors",
+      "Conversation list items no longer move ahead on unread"
+    ],
+    "removed": [
+      "Removed Edit button from the top",
+      "Removed auto contact color",
+      "Removed pure black mode old code",
+      "Removed fontsize option",
+      "Stripped out STT components"
+    ]
+  },
+  {
+    "versionCode": 3,
+    "versionName": "1.0.2",
+    "fixed": [
+      "A bunch of changes"
+    ]
+  },
+  {
+    "versionCode": 2,
+    "versionName": "1.0.1",
+    "removed": [
+      "First Public Release"
+    ]
+  }
+]

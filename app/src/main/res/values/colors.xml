@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#0A84FF</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+
+    <color name="md_theme_secondary">#34C759</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+
+    <color name="md_theme_background">#F2F2F7</color>
+    <color name="md_theme_onBackground">#000000</color>
+
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#000000</color>
+
+    <color name="md_theme_surfaceVariant">#E5E5EA</color>
+    <color name="md_theme_outline">#C6C6D0</color>
+
+    <color name="label_primary">#000000</color>
+    <color name="label_secondary">#993C3C43</color>
+    <color name="label_tertiary">#4D3C3C43</color>
+
+    <color name="shadow">#0A000000</color>
+    <color name="separator">#C6C6D0</color>
+    <color name="bubble_message">#0A84FF</color>
+
+    <color name="bubble_sms">#34C759</color>
+    <color name="bubble_incoming">#EFF2FF</color>
+
+    <color name="accent_highlight">#D6ECFF</color>
+    <color name="ripple_color">#330A84FF</color>
+
+    <color name="frost_surface">#ffffff</color>
+    <color name="frost_stroke">#e0e0e0</color>
+
+    <color name="ic_launcher">#ffffff</color>
+    <color name="ic_launcher_background">#0A84FF</color>
+
+    <!-- Main Activity -->
+    <color name="home_filter_chip_selected">#6b5cee</color>
+    <color name="home_filter_chip_background">@android:color/white </color>
+    <color name="home_filter_chip_text_unselected">#1a1a1a</color>
+
+    <color name="avatar_background">#FFB6C1</color>
+
+    <color name="unread_view_color">#3478f6</color>
+    <color name="avatar_view_color">#f0f0f0</color>
+    <color name="avatar_icon_color">#6B5CEE</color>
+
+    <!-- Swipe action color -->
+    <color name="swipe_delete">#E53935</color>
+
+    <!-- Compose Activity -->
+    <color name="bubbleOutgoing">#34C759</color>
+    <color name="bubbleOutgoingText">#FFFFFF</color>
+    <color name="bubbleIncomingLight">#E5E5EA</color>
+    <color name="bubbleIncomingDark">#3A3A3C</color>
+</resources>
