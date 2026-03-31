@@ -128,7 +128,7 @@ class SyncRepositoryImpl @Inject constructor(
                 partsCursor?.use {
                     partsCursor.forEach { cursor ->
                         tryOrNull {
-                            val part = cursorToPart.map(partsCursor)
+                            val part = cursorToPart.map(cursor)
                             realm.insertOrUpdate(part)
                             progress++
                         }
