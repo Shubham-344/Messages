@@ -75,6 +75,7 @@ import org.prauga.messages.model.Recipient
 import org.prauga.messages.feature.compose.MessageLongPress
 import org.prauga.messages.util.PhoneNumberUtils
 import org.prauga.messages.util.Preferences
+import timber.log.Timber
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 import javax.inject.Provider
@@ -490,6 +491,7 @@ class MessagesAdapter @Inject constructor(
         }
 
         // Bind the parts
+        Timber.d("MessagesAdapter.bindMessage: messageId=${message.id} contentId=${message.contentId} isMms=${message.isMms()} partsCount=${message.parts.size} parts=${message.parts.map { "${it.type}(id=${it.id})" }}")
         binding.parts.adapter = partsAdapterProvider.get().apply {
             this.theme = theme
             setData(message, previous, next, holder, audioState)
